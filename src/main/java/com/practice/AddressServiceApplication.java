@@ -10,6 +10,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @ComponentScan(basePackages = {"com.practice"})
 @EntityScan(basePackages = {"com.practice.entity"})
 @EnableJpaRepositories(basePackages = {"com.practice.repository"})
+//@EnableEurekaClient
 public class AddressServiceApplication {
 
 	public static void main(String[] args) {
